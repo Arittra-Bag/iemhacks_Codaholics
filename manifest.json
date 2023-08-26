@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Summary Extension",
+  "version": "1.0",
+  "description": "Generate a summary of YouTube videos",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "icon.jpg",
+    "48": "icon.jpg",
+    "128": "icon.jpg"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.jpg",
+      "48": "icon.jpg",
+      "128": "icon.jpg"
+    }
+  },
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ]
+}
